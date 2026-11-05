@@ -30,7 +30,6 @@
 
     form.addEventListener("submit", (event) => {
       event.preventDefault();
-
       const data = new FormData(form);
       const name = String(data.get("name") || "").trim();
       const phone = String(data.get("phone") || "").trim();
@@ -51,8 +50,11 @@
       if (comment) lines.push(`Комментарий: ${comment}`);
 
       const text = encodeURIComponent(lines.join("\n"));
-      const url = `https://vk.ru/write-205098870?text=${text}`;
-      window.open(url, "_blank", "noopener,noreferrer");
+      window.open(
+        `https://vk.ru/write-205098870?text=${text}`,
+        "_blank",
+        "noopener,noreferrer"
+      );
     });
   };
 

@@ -6,40 +6,41 @@
 - Date: 2026-11-05
 - Niche: СТО с вибростендом; диагностика подвески до ремонта
 - Source: https://vk.ru/ribinsk_sto
-- Concept-ID: 2026-11-05-sto76-workshop-protocol-v1
-- Composition-archetype: workshop-protocol
-- Forbidden-for-this-niche: SaaS/funnel hero→3 cards→prices→form; quiet-luxury black/cream/gold; purple gradients; cream+#F4F1EA+terracotta; музейный B&W+одна красная линейка photo essay
-- Delta-from-previous: n/a (новый проект)
+- Concept-ID: 2026-11-05-sto76-instrument-truth-v1
+- Composition-archetype: single-object-focus
+- Forbidden-for-this-niche: dark+orange/gold accents; cream+#F4F1EA+terracotta; hero→3 cards→prices→form; equal service card grids; stock engine as hero; Unbounded/Golos protocol-paper look
+- Delta-from-previous: archetype single-object-focus (was workshop-protocol); object=вибростенд not бланк наряда; palette navy+daylight+wave lime from logo (was paper+terracotta stand orange); type Onest+IBM Plex Sans/Mono (was Unbounded+Golos); IA instrument→filmstrip→consequence works→proof→booking
 
 ## Niche fingerprint
 
-- Ритуал: заезд → вибростенд → показ дефектов → смета → ремонт (часто в тот же день)
-- Материалы: металлический корпус стенда, подъёмник, плитка бокса, белый кирпич, бумага наряда-заказа
+- Ритуал: заезд → вибростенд → показ дефектов/распечатка → смета → ремонт в день
+- Материалы: корпус стенда, оси на платформе, подъёмник, плитка, белый кирпич, бумага распечатки
 - Свет: дневной из ворот + холодные лампы бокса
-- Vernacular: стенд, наряд, смета, сход-развал, гарантия
-- Сенсорика: гул стенда, запах масла, бетонный пол
-- Объект бренда: вибростенд как прибор, который фиксирует причину до объёма работ
+- Vernacular: стенд, показания, наряд, смета, сход-развал, гарантия
+- Сенсорика: гул стенда, запах масла, бетон
+- Объект бренда: вибростенд как прибор правды (износ виден до объёма работ)
+- Айдентика: navy + lime waveform в логотипе
 
 ## Unique thesis
 
-1. Mood: строгий сервисный протокол мастерской — как наряд на диагностику, не lifestyle-витрина.
-2. Type rationale: Unbounded (display, индустриальный характер + кириллица); Golos Text (UI, таблицы, формы).
-3. Palette logic (from materials/light): бумага наряда `#F3F1EC`, графит чернил `#1A1C1E`, холодный бетон `#9AA0A6`, сигнал стенда `#C45C26` (металл/гидравлика).
-4. Composition: страница = протокол: шапка наряда → шаги процедуры → спецификация работ → тарифная сетка → гарантия → заявка (archetype workshop-protocol).
-5. Motion: появление строк протокола по скроллу; лёгкий underline CTA; без параллакса и glow.
-6. Main gesture: нумерованный diagnostic protocol как скелет всей страницы.
+1. Mood: спокойная техническая уверенность — «покажем причину, не продадим объём».
+2. Type rationale: Onest (жёсткая геометрия приборной панели) + IBM Plex Sans (UI) + IBM Plex Mono (показания/цены как строка распечатки).
+3. Palette logic: bay-ink `#0E1620` (navy лого/тень бокса), daylight `#EEF1F0` (свет ворот), steel `#7A838C`, wave `#8DC63F` (lime лого — только пульс/акцент).
+4. Composition: single-object-focus — hero = стенд; услуги и доверие вытекают из прибора; filmstrip замера как вторичный жест.
+5. Motion: мягкое появление строк/кадров; waveform underline на CTA; без glow/parallax.
+6. Main gesture: full-bleed объект-стенд + сквозная lime waveform-линия.
 
 ## Anti-clone checklist
 
-- [x] Carryover: новый Concept-ID и archetype; не AVD void / Alumni / photo essay
-- [x] Benchmark clone: Solux/Repasi — только планка качества (ритм, CTA), не палитра/сетка/identity
-- [x] AI clusters: не purple-gradient; не cream+#F4F1EA+terracotta; не broadsheet; не generic dark SaaS
-- [x] Brand test: без лого читается как СТО со стендом в Рыбинске (протокол, стенд, Чкалова 92)
+- [x] Carryover: не protocol-paper, не Unbounded/Golos, не terracotta `#C45C26`
+- [x] Benchmark clone: Solux/Repasi/Q/Glyphic — только принципы (объект, CTA, ритм), не identity
+- [x] AI clusters: не purple; не cream+terracotta; не broadsheet; не dark+orange; не 3 equal cards
+- [x] Brand test: без лого остаются стенд, показания, mono-тариф, сход-развал, Чкалова 92
 
 ## Palette + type
 
-- Palette: `--paper #F3F1EC` (наряд), `--ink #1A1C1E` (чернила), `--concrete #9AA0A6` (бетон/подписи), `--stand #C45C26` (сигнал стенда), `--bay #E4E2DC` (поля документа)
-- Type: Unbounded 600/700 (заголовки протокола) + Golos Text 400/500/600 (тело, таблица, форма)
+- Palette: `--bay-ink #0E1620`, `--daylight #EEF1F0`, `--steel #7A838C`, `--wave #8DC63F`, `--panel #E4E8E6`
+- Type: Onest 600/700 · IBM Plex Sans 400/500/600 · IBM Plex Mono 400/500
 
 ## Primary benchmark
 
